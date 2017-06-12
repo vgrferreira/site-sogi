@@ -1,0 +1,317 @@
+@charset "UTF-8";
+a{
+    color: #00748d
+}
+a:hover{
+    text-decoration: underline
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    color: #363636;
+}
+.f-verde{
+    color: #00748d;
+}
+.top{
+    z-index: 9999;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 92px;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.22)
+}
+.top img{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.top a{    
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #fff;
+}
+.top a:hover{
+    text-decoration: none;
+}
+.top .menu .active>a {
+    background-color: #fff;
+    color:#00748d
+}
+.top .top-bar, .top-bar ul{
+    background-color: #fff;
+}
+.top i{
+    font-size: 32px
+}
+
+.h-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.h-list li{
+    display: inline-block!important;
+}
+
+.top .menu.medium-horizontal>li{
+    display: inline;
+}
+
+.v-center{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.no-p{
+    padding: 0;
+}
+
+.full-width{
+    width: 100%;
+    height: auto;
+} 
+
+.secao-1{
+    margin-top: 77px;
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    border-top: 1px solid #dbdbdb;
+}
+.footer .h-list li{
+    background-color: #00748d;    
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #00748d;
+}
+.footer .icons li:hover{
+    background-color: #fff;
+    color: #00748d;
+    border: 2px solid #00748d;
+}
+.footer li:hover i::before{
+    color:#00748d
+}
+.footer li i::before{   
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5;    
+}
+.footer .links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.footer .links li{
+    padding-bottom: 8px
+}
+.footer a{
+    color:#00748d
+}
+.footer .links ul li a:hover{
+    border:0
+}
+.copyright{
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copyright p{
+    margin: 0;
+    color: #fff
+}
+/* SITE SOGI */
+.part-1{
+    background-color: #363636;
+    color:#fff;
+}
+.part-2{
+    background-color: #fff;
+}
+.vantagem ul li{
+    display: inline-table;
+    width: 350px;
+    -webkit-box-shadow: 0 6px 6px -6px #1c1c1c;
+    -moz-box-shadow: 0 6px 6px -6px #1c1c1c;
+    box-shadow: 0 6px 6px -6px #1c1c1c;
+    border: 1px solid #e6e6e6;
+    margin: 0px 5px 30px 5px;
+    padding: 30px;
+    text-align: center
+}
+.vantagem-block{
+    min-height: 315px
+}
+.vantagem img{
+    height: 100px;
+    width: auto;
+    margin-bottom: 10px
+}
+
+.contato{
+    background-color: #00748d;
+    color: #fff
+}
+.contato p{
+    color: #ffc600
+}
+
+.duvidas{
+    background-color: #0877A2;
+    color: #fff
+}
+.duvidas ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.duvidas ul li{
+    padding: 30px;
+    color: #0877A2;
+    border-bottom: 2px solid #0877A2;
+}
+.d-block{
+    background-color: #fff;
+}
+.h-list-v li{
+    display: inline-block;
+}
+.h-list-v ul{
+    padding: 0;
+    margin: 0
+}
+#scroll {
+  position:fixed;
+  right:0px;
+  bottom:52px;
+  cursor:pointer;
+  width:50px;
+  height:50px;
+  background-color:#111111;
+  opacity: 0.7;
+  text-indent:-9999px;
+  display:none;
+}
+#scroll span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-8px;
+  margin-top:-12px;
+  height:0;
+  width:0;
+  border:8px solid transparent;
+  border-bottom-color:#fff;
+}
+#scroll:hover {
+  background-color:#ccc;
+  opacity:1;filter:"alpha(opacity=100)";
+  -ms-filter:"alpha(opacity=100)";
+}
+/* ./SITE SOGI */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .p-t-c{
+        padding-top:25px;
+    }
+    .p-b-c{
+        padding-bottom:25px;
+    }
+    .menu-mobile{
+        margin: 0 10px;
+    }
+    .vantagem ul li{
+        width: auto        
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    .p-t-25{
+        padding-top: 25px
+    }
+    .p-b-25{
+        padding-bottom: 25px
+    }
+    .p-t-50{
+        padding-top: 50px
+    }
+    .p-b-50{
+        padding-bottom: 50px
+    }
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .contato p{
+        font-size: 28px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
